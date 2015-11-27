@@ -1,7 +1,7 @@
 var path = require('path');
 var fs = require('fs');
 var assign = require('object-assign');
-var babel = require('babel');
+var babel = require('babel-core');
 
 var parameterValue = new Date().valueOf().toString(36);
 

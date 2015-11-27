@@ -16,8 +16,8 @@
     "url": "https://github.com/LuvDaSun/babel-js-handler/issues"
   },
   "dependencies": {
-    "object-assign": "~4.0.1",
-    "babel": "~6.1.18"
+    "babel-core": "^6.2.1",
+    "object-assign": "~4.0.1"
   },
   "devDependencies": {
     "jshint": "~2.9.1-rc1"
