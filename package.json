@@ -1,0 +1,25 @@
+{
+  "name": "babel-js-handler",
+  "version": "0.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "lint": "jshint . -e .json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/LuvDaSun/babel-js-handler.git"
+  },
+  "author": "Elmer Bulthuis",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/LuvDaSun/babel-js-handler/issues"
+  },
+  "dependencies": {
+    "object-assign": "~4.0.1",
+    "babel": "~6.1.18"
+  },
+  "devDependencies": {
+    "jshint": "~2.9.1-rc1"
+  }
+}
