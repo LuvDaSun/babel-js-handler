@@ -1,7 +1,7 @@
 var path = require('path');
 var fs = require('fs');
 var assign = require('object-assign');
-var babel = require('babel-core');
+var babel = require('babel-cor');
 
 var parameterValue = new Date().valueOf().toString(36);
 
@@ -37,7 +37,7 @@ module.exports = function(basePath, options) {
                         filename: srcPath,
                         sourceMaps: 'inline',
                         presets: options.presets,
-                        plugins: ["transform-es2015-modules-amd"],
+                        plugins: ["transform-es2015-modules-amd"].concat(options.plugins),
                     });
 
                     res.end(result.code);
